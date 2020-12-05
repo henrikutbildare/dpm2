@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Finish') {
+      steps {
+        echo 'Last step'
+      }
+    }
+
   }
 }
